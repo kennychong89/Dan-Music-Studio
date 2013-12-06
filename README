@@ -42,8 +42,8 @@ Running this project
 		Command: $ sudo pip install virtualenv
 
 	3) Create a VirtualEnvironment in 'myproject' directory:
-		Command: $ virtualenv myproject/venv
-	
+		Command: $ virtualenv myproject/venv or $ virtualenv ./venv
+		
 	4) Activate your VirtualEnvironment:
 		Command: $ . venv/bin/activate
 
@@ -61,42 +61,53 @@ Running this project
 
 5) Run the command: $ python manage.py runserver
 
-6) If there is no error, go to your web browser and enter the address: localhost:8082
+6) If there is no error, you should see something like:
 
-7) You should see a welcome screen.
+	Validating models...
+
+	0 errors found
+	December 06, 2013 - 02:02:55
+	Django version 1.6, using settings 'website.settings'
+	Starting development server at http://127.0.0.1:8000/
+	Quit the server with CONTROL-C.
+
+8) Copy the http address that you see into your favorite web browser
+
+7) You should see a welcome screen
 
 Current Project Tree
 --------------------
 myproject
-├── manage.py
-├── musicstore
-│   ├── admin.py
-│   ├── __init__.py
-│   ├── models.py
-│   ├── tests.py
-│   └── views.py
-├── README
-└── website
-    ├── __init__.py
-    ├── __init__.pyc
-    ├── settings.py
-    ├── settings.pyc
-    ├── static
-    │   └── bootstrap
-    │       ├── css
-    │       │   ├── bootstrap.css
-    │       │   ├── bootstrap.min.css
-    │       │   ├── bootstrap-theme.css
-    │       │   └── bootstrap-theme.min.css
-    │       ├── fonts
-    │       │   ├── glyphicons-halflings-regular.eot
-    │       │   ├── glyphicons-halflings-regular.svg
-    │       │   ├── glyphicons-halflings-regular.ttf
-    │       │   └── glyphicons-halflings-regular.woff
-    │       └── js
-    │           ├── bootstrap.js
-    │           └── bootstrap.min.js
-    ├── urls.py
-    └── wsgi.py
+├── Dan-Music-Studio
+	├── manage.py
+	├── musicstore
+		│   ├── admin.py
+		│   ├── __init__.py
+		│   ├── models.py
+		│   ├── tests.py
+		│   └── views.py
+	├── README
+	└── website
+    		├── __init__.py
+    		├── __init__.pyc
+    		├── settings.py
+    		├── settings.pyc
+    		├── static
+    			│   └── bootstrap
+    			│       ├── css
+    			│       │   ├── bootstrap.css
+    			│       │   ├── bootstrap.min.css
+    			│       │   ├── bootstrap-theme.css
+    			│       │   └── bootstrap-theme.min.css
+    			│       ├── fonts
+    			│       │   ├── glyphicons-halflings-regular.eot
+    			│       │   ├── glyphicons-halflings-regular.svg
+    			│       │   ├── glyphicons-halflings-regular.ttf
+    			│       │   └── glyphicons-halflings-regular.woff
+    			│       └── js
+    			│           ├── bootstrap.js
+    			│           └── bootstrap.min.js
+    		├── urls.py
+    		└── wsgi.py
 
 I will describe this tree in a future time.
