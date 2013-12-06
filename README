@@ -1,0 +1,100 @@
+Dan's Music Studio Website
+Date Created: December 5th, 2013
+
+Info
+-----
+This is small web application developed for a pretty cool music studio in West Orange, New Jersey. Check out their original site at 'http://dansbands.wix.com/dms#!'(note: you might need Adobe Flash installed to view the site). 
+
+Specifications
+--------------
+- Python 2.7 
+- Django 1.6
+- Bootstrap (www.getbootstrap.com)
+- MongoDB 2.4.8
+
+Adding this project to your computer
+------------------------------------
+1) Install Git:
+	Command: $ sudo apt-get install git 
+
+2) Create directory to hold the project, we will can call it 'myproject'
+
+3) go into 'myproject' directory
+
+4) Fork the repo at 'https://github.com/kennychong89/Dan-Music-Studio.git':
+	Command: $ git clone https://github.com/kennychong89/Dan-Music-Studio.git
+
+Running this project
+--------------------
+1) Install VirtualEnvironment for Python (Recommended)
+   Info about installation: https://pypi.python.org/pypi/virtualenv
+	
+   For Linux Users: 
+	1) Install pip (http://www.pip-installer.org/en/latest/):
+	    
+	    (For Debian and Ubuntu Dist): $ sudo apt-get install python-pip
+	    (For Fedora Dist): $ sudo yum install python-pip
+	    (Other Dist): Check link above
+
+	2) Install VirtualEnvironment:
+		Command: $ sudo pip install virtualenv
+
+	3) Create a VirtualEnvironment in 'myproject' directory:
+		Command: $ virtualenv myproject/venv
+	
+	4) Activate your VirtualEnvironment:
+		Command: $ . venv/bin/activate
+
+2) Install Django
+	1a) With VirtualEnviroment activated:
+		Command: $ pip install Django
+	
+	1b) System-wide installation (with pip installed):
+		Command: $ pip install Django 
+
+3) Install MongoDB 2.4.8
+	(Check back later)
+
+4) Go into the repository you forked above and find the file 'Manage.py'
+
+5) Run the command: $ python manage.py runserver
+
+6) If there is no error, go to your web browser and enter the address: localhost:8082
+
+7) You should see a welcome screen.
+
+Current Project Tree
+--------------------
+myproject
+├── manage.py
+├── musicstore
+│   ├── admin.py
+│   ├── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── README
+└── website
+    ├── __init__.py
+    ├── __init__.pyc
+    ├── settings.py
+    ├── settings.pyc
+    ├── static
+    │   └── bootstrap
+    │       ├── css
+    │       │   ├── bootstrap.css
+    │       │   ├── bootstrap.min.css
+    │       │   ├── bootstrap-theme.css
+    │       │   └── bootstrap-theme.min.css
+    │       ├── fonts
+    │       │   ├── glyphicons-halflings-regular.eot
+    │       │   ├── glyphicons-halflings-regular.svg
+    │       │   ├── glyphicons-halflings-regular.ttf
+    │       │   └── glyphicons-halflings-regular.woff
+    │       └── js
+    │           ├── bootstrap.js
+    │           └── bootstrap.min.js
+    ├── urls.py
+    └── wsgi.py
+
+I will describe this tree in a future time.
