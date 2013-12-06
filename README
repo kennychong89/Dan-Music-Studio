@@ -1,6 +1,10 @@
 Dan's Music Studio Website
 Date Created: December 5th, 2013
 
+Update(s)
+------
+12/05/03: Repo up! Nothing added yet.
+
 Info
 -----
 This is small web application developed for a pretty cool music studio in West Orange, New Jersey. 
@@ -14,6 +18,8 @@ Specifications
 - Bootstrap (www.getbootstrap.com)
 - MongoDB 2.4.8
 
+Instructions
+------------------------------------
 Adding this project to your computer
 ------------------------------------
 1) Install Git:
@@ -81,11 +87,11 @@ myproject
 ├── Dan-Music-Studio
 	├── manage.py
 	├── musicstore
-		│   ├── admin.py
-		│   ├── __init__.py
-		│   ├── models.py
-		│   ├── tests.py
-		│   └── views.py
+	│   ├── admin.py
+	│   ├── __init__.py
+	│   ├── models.py
+	│   ├── tests.py
+	│   └── views.py
 	├── README
 	└── website
     		├── __init__.py
@@ -93,20 +99,20 @@ myproject
     		├── settings.py
     		├── settings.pyc
     		├── static
-    			│   └── bootstrap
-    			│       ├── css
-    			│       │   ├── bootstrap.css
-    			│       │   ├── bootstrap.min.css
-    			│       │   ├── bootstrap-theme.css
-    			│       │   └── bootstrap-theme.min.css
-    			│       ├── fonts
-    			│       │   ├── glyphicons-halflings-regular.eot
-    			│       │   ├── glyphicons-halflings-regular.svg
-    			│       │   ├── glyphicons-halflings-regular.ttf
-    			│       │   └── glyphicons-halflings-regular.woff
-    			│       └── js
-    			│           ├── bootstrap.js
-    			│           └── bootstrap.min.js
+    		│   └── bootstrap
+    		│       ├── css
+    		│       │   ├── bootstrap.css
+    		│       │   ├── bootstrap.min.css
+    		│       │   ├── bootstrap-theme.css
+    		│       │   └── bootstrap-theme.min.css
+    		│       ├── fonts
+    		│       │   ├── glyphicons-halflings-regular.eot
+    		│       │   ├── glyphicons-halflings-regular.svg
+    		│       │   ├── glyphicons-halflings-regular.ttf
+    		│       │   └── glyphicons-halflings-regular.woff
+    		│       └── js
+    		│           ├── bootstrap.js
+    		│           └── bootstrap.min.js
     		├── urls.py
     		└── wsgi.py
 
