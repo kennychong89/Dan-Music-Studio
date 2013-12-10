@@ -1,0 +1,8 @@
+﻿What color could the site be?
+need to show the links for facebook or instrgram
+Would like to use a Capcha somewhere on the page when making appointments (Let's not get scammed)
+ http://www.google.com/recaptcha/captcha
+
+
+https://github.com/railsbridge/bridge_troll.git  # I just like the directory structure
+http://realdjango.com/     # Learning django
